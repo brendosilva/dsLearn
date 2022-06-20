@@ -28,3 +28,7 @@ INSERT INTO tb_resource (title, description, position ,image_Uri, type, offer_id
 INSERT INTO tb_resource (title, description, position ,image_Uri, type, offer_id) VALUES ('Forum', 'Tire suas duvidas', 2, 'https://cdn.pixabay.com/photo/2020/05/31/09/30/online-course-5241968_1280.jpg', 2, 1);
 INSERT INTO tb_resource (title, description, position ,image_Uri, type, offer_id) VALUES ('Live', 'Assista lives ao vivo',3, 'https://cdn.pixabay.com/photo/2020/05/31/09/30/online-course-5241968_1280.jpg', 0, 1);
 
+
+INSERT INTO tb_section (title, description, position, image_Uri, resource_id, prerequesite_id) VALUES ('capitulo 1', 'aprederemos o fundamentos', 1, 'https://cdn.pixabay.com/photo/2020/05/31/09/30/online-course-5241968_1280.jpg', 1 , null);
+INSERT INTO tb_section (title, description, position, image_Uri, resource_id, prerequesite_id) VALUES ('capitulo 2', 'POO', 2, 'https://cdn.pixabay.com/photo/2020/05/31/09/30/online-course-5241968_1280.jpg', 1 , 1);
+INSERT INTO tb_section (title, description, position, image_Uri, resource_id, prerequesite_id) VALUES ('capitulo 3', 'Streams', 3, 'https://cdn.pixabay.com/photo/2020/05/31/09/30/online-course-5241968_1280.jpg', 1 , 2);
