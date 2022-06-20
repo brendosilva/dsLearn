@@ -22,5 +22,9 @@ INSERT INTO tb_course (name, image_Uri, image_Gray_Uri) VALUES ('bootcamp node',
 
 
 INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('1.0', TIMESTAMP WITH TIME ZONE '2020-07-13T03:00:00.12345Z', TIMESTAMP WITH TIME ZONE '2021-07-13T03:00:00.12345Z',  1);
-
 INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('2.0', TIMESTAMP WITH TIME ZONE '2020-12-13T03:00:00.12345Z', TIMESTAMP WITH TIME ZONE '2021-11-13T03:00:00.12345Z',  1);
+
+INSERT INTO tb_resource (title, description, position ,image_Uri, type, offer_id) VALUES ('Trilha Java', 'Aprenda sobre java conceitos sobre POO', 1, 'https://cdn.pixabay.com/photo/2020/05/31/09/30/online-course-5241968_1280.jpg', 1, 1);
+INSERT INTO tb_resource (title, description, position ,image_Uri, type, offer_id) VALUES ('Forum', 'Tire suas duvidas', 2, 'https://cdn.pixabay.com/photo/2020/05/31/09/30/online-course-5241968_1280.jpg', 2, 1);
+INSERT INTO tb_resource (title, description, position ,image_Uri, type, offer_id) VALUES ('Live', 'Assista lives ao vivo',3, 'https://cdn.pixabay.com/photo/2020/05/31/09/30/online-course-5241968_1280.jpg', 0, 1);
+
