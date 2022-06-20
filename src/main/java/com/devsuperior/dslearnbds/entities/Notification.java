@@ -20,6 +20,10 @@ public class Notification {
 
     private String route;
 
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;
+
     public Notification() {
     }
 
@@ -29,6 +33,15 @@ public class Notification {
         this.moment = moment;
         this.read = read;
         this.route = route;
+    }
+
+    public Notification(Long id, String text, Instant moment, boolean read, String route, User user) {
+        this.id = id;
+        this.text = text;
+        this.moment = moment;
+        this.read = read;
+        this.route = route;
+        this.user = user;
     }
 
     public Long getId() {

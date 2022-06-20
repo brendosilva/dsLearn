@@ -20,3 +20,7 @@ INSERT INTO tb_course (name, image_Uri, image_Gray_Uri) VALUES ('bootcamp java',
 INSERT INTO tb_course (name, image_Uri, image_Gray_Uri) VALUES ('bootcamp react', 'https://cdn.pixabay.com/photo/2020/05/31/09/30/online-course-5241968_1280.jpg', 'https://cdn.pixabay.com/photo/2020/05/31/09/30/online-course-5241968_1280.jpg');
 INSERT INTO tb_course (name, image_Uri, image_Gray_Uri) VALUES ('bootcamp node', 'https://cdn.pixabay.com/photo/2020/05/31/09/30/online-course-5241968_1280.jpg', 'https://cdn.pixabay.com/photo/2020/05/31/09/30/online-course-5241968_1280.jpg');
 
+
+INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('1.0', TIMESTAMP WITH TIME ZONE '2020-07-13T03:00:00.12345Z', TIMESTAMP WITH TIME ZONE '2021-07-13T03:00:00.12345Z',  1);
+
+INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('2.0', TIMESTAMP WITH TIME ZONE '2020-12-13T03:00:00.12345Z', TIMESTAMP WITH TIME ZONE '2021-11-13T03:00:00.12345Z',  1);
