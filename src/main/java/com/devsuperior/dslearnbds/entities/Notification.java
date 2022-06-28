@@ -25,6 +25,10 @@ public class Notification {
     @JoinColumn(name = "user_id")
     private User user;
 
+    public User getUser() {
+        return user;
+    }
+
     public Notification() {
     }
 
